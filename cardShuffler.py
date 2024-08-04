@@ -14,7 +14,3 @@ def shuffle(i):
     card = [cardSuit,cardFace,cardValue]
     return card[i]
     
-card1 = [shuffle(0),shuffle(1),shuffle(2)]
-    
-
-
