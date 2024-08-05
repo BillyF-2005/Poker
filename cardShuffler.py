@@ -3,7 +3,7 @@ import random
 
 
 
-def shuffle(i):
+def shuffle():
     suits = ['club', 'diamond', 'heart', 'spade']
     values = [2,3,4,5,6,7,8,9,10,11,12,13,14]
     faces = ['2','3','4','5','6','7','8','9','10','J','Q','K','A']
@@ -12,5 +12,5 @@ def shuffle(i):
     cardValue = random.choice(values)
     cardFace = faces[values.index(cardValue)]
     card = [cardSuit,cardFace,cardValue]
-    return card[i]
+    return card
     
